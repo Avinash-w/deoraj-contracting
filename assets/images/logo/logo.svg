@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 110" width="100%" height="100%">
+  <!-- Icon Section -->
+  <g transform="translate(10, 5)">
+    <!-- Main D shape background & outline -->
+    <path d="M15 10 H55 C82 10 98 26 98 50 C98 74 82 90 55 90 H15 Z" fill="#0B2545" />
+    <path d="M32 24 H52 C70 24 81 35 81 50 C81 65 70 76 52 76 H32 Z" fill="#FFFFFF" />
+    
+    <!-- Chimney / Tower on Left of inner D -->
+    <path d="M37 76 L39 36 H47 L49 76 Z" fill="#0B2545" />
+    <!-- Orange accent band on chimney -->
+    <rect x="38.5" y="44" width="9" height="5" fill="#E67E22" rx="1" />
+    <!-- Chimney cap -->
+    <rect x="38" y="34" width="10" height="3" fill="#0B2545" rx="1" />
+    <!-- Smoke puff -->
+    <path d="M43 32 Q41 24 47 21 Q51 18 48 14" fill="none" stroke="#94A3B8" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Building Tower inside D -->
+    <path d="M51 76 V30 L73 40 V76 Z" fill="#0B2545" />
+    <!-- Building Facets / Windows -->
+    <path d="M54 36 H60 V76 H54 Z" fill="#CBD5E1" />
+    <path d="M63 41 H70 V76 H63 Z" fill="#94A3B8" />
+    <!-- Window slits -->
+    <line x1="57" y1="42" x2="57" y2="70" stroke="#0B2545" stroke-width="1.5" stroke-dasharray="3,3" />
+    <line x1="66" y1="47" x2="66" y2="70" stroke="#0B2545" stroke-width="1.5" stroke-dasharray="3,3" />
+
+    <!-- Dynamic Base Swooshes -->
+    <path d="M5 80 Q55 98 105 75 Q75 92 20 86 Z" fill="#0B2545" />
+    <path d="M12 85 Q55 102 102 82 Q70 96 22 90 Z" fill="#E67E22" />
+  </g>
+
+  <!-- Typography Section -->
+  <g transform="translate(130, 0)">
+    <!-- Brand Title: DEORAJ -->
+    <text x="0" y="55" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="44" fill="#0B2545" letter-spacing="3">DEOR</text>
+    
+    <!-- Custom A with Architectural Triangle Accent -->
+    <text x="145" y="55" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="44" fill="#0B2545" letter-spacing="3">A</text>
+    <polygon points="163,44 156,54 170,54" fill="#E67E22" />
+    
+    <text x="186" y="55" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="44" fill="#0B2545" letter-spacing="3">J</text>
+
+    <!-- Subtitle: CONTRACTING & GENERAL MAINTENANCE -->
+    <text x="2" y="74" font-family="'Montserrat', 'Segoe UI', sans-serif" font-weight="700" font-size="11.5" fill="#0B2545" letter-spacing="2.2">CONTRACTING &amp; GENERAL MAINTENANCE</text>
+    
+    <!-- Bottom line with LLC -->
+    <line x1="2" y1="88" x2="95" y2="88" stroke="#0B2545" stroke-width="1.5" />
+    <text x="108" y="92" font-family="'Montserrat', 'Segoe UI', sans-serif" font-weight="800" font-size="13" fill="#E67E22" letter-spacing="5">LLC</text>
+    <line x1="170" y1="88" x2="365" y2="88" stroke="#0B2545" stroke-width="1.5" />
+  </g>
+</svg>
