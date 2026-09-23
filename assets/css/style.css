@@ -1673,3 +1673,33 @@ img {
     font-size: 2rem;
   }
 }
+/* Mobile Navbar Scroll Fix */
+@media (max-width: 991.98px) {
+  .navbar-custom .navbar-collapse {
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+    padding-bottom: 20px;
+  }
+}
+/* Mobile & Desktop Mega Menu Fix */
+@media (min-width: 992px) {
+  .mega-menu {
+    min-width: 580px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .mega-menu {
+    max-height: 250px;
+    overflow-y: auto;
+    width: 100%;
+    border-radius: 8px;
+    background: #f8f9fa;
+  }
+  
+  .navbar-custom .navbar-collapse {
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
