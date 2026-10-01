@@ -64,6 +64,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -161px;
+    margin-top: var(--bs-dropdown-spacer);
+}
 
 /* Utilities & Section Headers */
 .bg-primary-custom {
